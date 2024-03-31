@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    
+    <script>
+    $(document).ready(function(){
+      $("p").click(function(){
+        $(this).hide();
+      });
+    });
+    </script>
+
+ <!-- < meta charset="UTF-8"> -->
+  <title>Tic Tac Toe</title>
+  
+  <link rel="stylesheet" href="style.css">
+
+	<button onClick="startGame()">Replay</button>
+
+    <button onclick="myFunction()">Click Me RED</button>
+
+    <button onclick="myFunctionGreen()">Click Me GREEN</button>
+
+    <button onclick="myFunctionBlue()">Click Me BLUE</button>
+
+
+</head>
+
+<body>
+
+<p>If you click on me, I will disappear.</p>
+<p>Click me away!</p>
+<p>Click me too!</p>
+
+<br>
+	<table>
+		<tr>
+			<td class="cell" id="0"></td>
+			<td class="cell" id="1"></td>
+			<td class="cell" id="2"></td>
+		</tr>
+		<tr>
+			<td class="cell" id="3"></td>
+			<td class="cell" id="4"></td>
+			<td class="cell" id="5"></td>
+		</tr>
+		<tr>
+			<td class="cell" id="6"></td>
+			<td class="cell" id="7"></td>
+			<td class="cell" id="8"></td>
+		</tr>
+	</table>
+
+<br><br>
+	
+<!--	<table>
+		<tr>
+			<td class="cell" id="0"></td>
+			<td class="cell" id="1"></td>
+			<td class="cell" id="2"></td>
+			<td class="cell" id="4"></td>
+		</tr>
+		<tr>
+			<td class="cell" id="5"></td>
+			<td class="cell" id="6"></td>
+			<td class="cell" id="7"></td>
+			<td class="cell" id="8"></td>
+		</tr>
+		<tr>
+			<td class="cell" id="9"></td>
+			<td class="cell" id="10"></td>
+			<td class="cell" id="11"></td>
+			<td class="cell" id="12"></td>
+		</tr>
+		<tr>
+			<td class="cell" id="13"></td>
+			<td class="cell" id="14"></td>
+			<td class="cell" id="15"></td>
+			<td class="cell" id="16"></td>
+		</tr>		
+	</table>
+-->
+	
+	<br>
+	<div class="endgame">
+		<div class="text"></div>
+	</div>
+	
+	<br><br>
+
+    <div id="myDIV" class="myDIV">
+        <div class="text">This is my <b>DIV</b> element.</div>
+    </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
