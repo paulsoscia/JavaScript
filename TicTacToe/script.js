@@ -1,7 +1,8 @@
 /*
     https://www.youtube.com/watch?v=P2TcQ3h0ipQ    
     https://github.com/beaucarnes/fcc-project-tutorials/blob/master/tictactoe/improvements/tictactoe.html
-    
+    https://jquery.com/download/
+    https://www.w3schools.com/jquery/jquery_intro.asp#:~:text=%22%2C%20JavaScript%20library.-,The%20purpose%20of%20jQuery%20is%20to%20make%20it%20much%20easier,a%20single%20line%20of%20code.
 */
 
 var origBoard;
